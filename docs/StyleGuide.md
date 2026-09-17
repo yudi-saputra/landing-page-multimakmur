@@ -4,11 +4,12 @@
 
 | Token | Hex | Usage |
 |---|---|---|
-| `primary-600` | #4F46E5 | Brand utama, tombol primary, link aktif |
-| `primary-500` | #6366F1 | Hover state, gradient start |
-| `primary-700` | #4338CA | Gradient end, text on light bg |
-| `accent-500` | #06B6D4 | Highlight, badge, icon accent (cyan) |
-| `gradient` | linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%) | Hero background, CTA button |
+| `primary-600` | #0776BD | Brand biru (dari logo), tombol primary, link aktif |
+| `primary-500` | #1E8FD6 | Hover state, blob |
+| `primary-700` | #065E96 | Gradient start, text on light bg |
+| `accent-500` | #ED2D27 | Brand merah (dari logo) — highlight kecil: eyebrow, subtitle, icon tint. Jangan dipakai untuk area besar |
+| `sky-400` | #38BDF8 (Tailwind built-in) | Gradient end untuk area besar (hero, CTA, icon box) — biru ke biru muda, hindari biru ke merah |
+| `gradient` | linear-gradient(135deg, #0776BD 0%, #38BDF8 100%) | Hero background, CTA button |
 | `neutral-900` | #0F172A | Heading text, dark section bg |
 | `neutral-700` | #334155 | Body text |
 | `neutral-500` | #64748B | Secondary text, placeholder |
