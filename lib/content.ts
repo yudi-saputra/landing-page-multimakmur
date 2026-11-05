@@ -4,12 +4,15 @@ export const company = {
   foundedYear: 2013,
   email: "info@multimakmur.id",
   address:
-    "Perumahan Jl. Villa Taman Bandara No.18 Blok N 10, Dadap, Kec. Kosambi, Kabupaten Tangerang, Banten 15211",
+    "Ruko, Jl. Villa Taman Bandara No.18 Blok N 10, Dadap, Kec. Kosambi, Kabupaten Tangerang, Banten 15211",
   mapsUrl: "https://maps.app.goo.gl/uHH3fAEKRjVFi2e96",
 };
 
 // CTA placeholder — ganti ke WA link atau form saat sudah final (lihat docs/PRD.md §6)
 export const ctaHref = `mailto:${company.email}`;
+
+// Placeholder link form pendaftaran Hero — ganti ke URL form pendaftaran asli saat sudah siap
+export const daftarHref = "#";
 
 export const navLinks = [
   { label: "Produk", href: "#produk" },
@@ -95,7 +98,7 @@ export const businessUnits = [
     subtitle: "Business to Business",
     description:
       "Solusi distribusi pulsa & PPOB skala perusahaan/instansi, volume besar dengan harga kompetitif.",
-    ctaLabel: "Gabung Channel B2B",
+    ctaLabel: "Integrasi API",
   },
   {
     icon: "Users",
@@ -111,7 +114,7 @@ export const businessUnits = [
     subtitle: "Host to Host",
     description:
       "Integrasi sistem langsung (API to API) untuk platform/aplikasi mitra.",
-    ctaLabel: "Integrasi API",
+    ctaLabel: "Gabung Channel",
   },
 ];
 

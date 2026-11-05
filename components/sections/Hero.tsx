@@ -1,5 +1,5 @@
 import { ArrowRight, BadgeCheck, ShieldCheck, Zap, Headset } from "lucide-react";
-import { ctaHref } from "@/lib/content";
+import { daftarHref } from "@/lib/content";
 import { Button } from "@/components/ui/Button";
 
 const perks = [
@@ -54,8 +54,8 @@ export function Hero() {
             className="animate-fade-up mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
             style={{ animationDelay: "300ms" }}
           >
-            <Button href={ctaHref} variant="primary">
-              Hubungi Kami
+            <Button href={daftarHref} variant="primary">
+              Daftar Sekarang
               <ArrowRight
                 size={18}
                 className="transition-transform group-hover:translate-x-1"

@@ -21,7 +21,7 @@ const contactItems = [
   {
     icon: Clock,
     label: "Jam Operasional",
-    value: "Senin – Jumat, 09.00 – 17.00 WIB",
+    value: "Senin – Sabtu, 09.00 – 17.00 WIB",
     href: null,
     external: false,
   },

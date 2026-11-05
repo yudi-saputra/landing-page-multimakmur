@@ -39,7 +39,7 @@ export function MobileMenu() {
           <Link
             href={ctaHref}
             onClick={() => setOpen(false)}
-            className="mt-2 inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-primary-600 to-sky-400 px-4 py-2.5 text-sm font-medium text-white shadow-md"
+            className="mt-2 inline-flex items-center justify-center rounded-xl bg-primary-600 px-4 py-2.5 text-sm font-medium text-white shadow-md"
           >
             Hubungi Kami
           </Link>

@@ -23,7 +23,11 @@ export function UnitUsaha() {
               >
                 <div className="flex items-start justify-between">
                   <div className="inline-flex rounded-xl bg-gradient-to-br from-primary-600 to-sky-400 p-3 shadow-md shadow-primary-600/25 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3">
-                    <Icon name={unit.icon as IconName} className="text-white" size={26} />
+                    <Icon
+                      name={unit.icon as IconName}
+                      className="text-white"
+                      size={26}
+                    />
                   </div>
                   <span className="rounded-full bg-neutral-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-neutral-500">
                     {unit.subtitle}
